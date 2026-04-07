@@ -8,8 +8,12 @@ void main() {
     v1.afficherDescription();
 
     // Exercice 3
-    v1.appliquerReduction10();
-    v1.afficherDescription();
+    //v1.appliquerReduction10();
+    //v1.afficherDescription();
     // Il faudrait changer à chaque fois la méthode ce qui n'est pas pratique.
 
+    // Exercice 4
+
+    v1.appliquerReduction(30);
+    v1.afficherDescription();
 }

@@ -18,7 +18,7 @@ public class Voiture {
         System.out.println("Prix : " + this.prix + "€");
     }
 
-    public void appliquerReduction10(){
-        this.prix = this.prix - this.prix * 0.1;
+    public void appliquerReduction(double pourcentage){
+        this.prix = this.prix - this.prix * (pourcentage * 0.01);
     }
 }
