@@ -16,4 +16,8 @@ void main() {
 
     v1.appliquerReduction(30);
     v1.afficherDescription();
+
+    // Exercice 5
+
+    v1.afficherDescription();
 }

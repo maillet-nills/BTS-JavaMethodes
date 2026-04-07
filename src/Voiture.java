@@ -12,10 +12,16 @@ public class Voiture {
     }
 
     public void afficherDescription(){
+
         System.out.println("Marque : " + this.marque);
         System.out.println("Modèle : " + this.modele);
-        System.out.println("Année : " + this.annee);
+        System.out.println("Age : " + calculAge());
         System.out.println("Prix : " + this.prix + "€");
+    }
+
+    public int calculAge(){
+        int age = 2026 - this.annee;
+        return age;
     }
 
     public void appliquerReduction(double pourcentage){
